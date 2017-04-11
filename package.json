@@ -1,1 +1,40 @@
-{     "devDependencies": {         "gitbook": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmtest-gitbook",     "homepage": "https://github.com/npmtest/node-npmtest-gitbook",     "repository": {         "type": "git",         "url": "https://github.com/npmtest/node-npmtest-gitbook.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "test coverage for [gitbook (v3.2.2)](https://www.gitbook.com) [![npm package](https://img.shields.io/npm/v/npmtest-gitbook.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gitbook) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gitbook.svg)](https://travis-ci.org/npmtest/node-npmtest-gitbook)",
+    "devDependencies": {
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "gitbook": "*",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmtest/node-npmtest-gitbook",
+    "keywords": [
+        "coverage",
+        "test",
+        "gitbook"
+    ],
+    "license": "MIT",
+    "main": "lib.npmtest_gitbook.js",
+    "name": "npmtest-gitbook",
+    "nameAlias": "npmtest_gitbook",
+    "nameOriginal": "npmtest-gitbook",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmtest/node-npmtest-gitbook.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
