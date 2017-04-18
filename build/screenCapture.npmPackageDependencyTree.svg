@@ -43,7 +43,7 @@
 <tspan x="10" y="650">  │ │ ├── arrify@1.0.1 </tspan>
 <tspan x="10" y="666">  │ │ └─┬ micromatch@2.3.11 </tspan>
 <tspan x="10" y="682">  │ │   ├─┬ arr-diff@2.0.0 </tspan>
-<tspan x="10" y="698">  │ │   │ └── arr-flatten@1.0.1 </tspan>
+<tspan x="10" y="698">  │ │   │ └── arr-flatten@1.0.3 </tspan>
 <tspan x="10" y="714">  │ │   ├── array-unique@0.2.1 </tspan>
 <tspan x="10" y="730">  │ │   ├─┬ braces@1.8.5 </tspan>
 <tspan x="10" y="746">  │ │   │ ├─┬ expand-range@1.8.2 </tspan>
@@ -505,7 +505,7 @@
 <tspan x="10" y="8042">  │ │ ├─┬ json-parse-helpfulerror@1.0.3 </tspan>
 <tspan x="10" y="8058">  │ │ │ └── jju@1.3.0 </tspan>
 <tspan x="10" y="8074">  │ │ └─┬ normalize-package-data@2.3.6 </tspan>
-<tspan x="10" y="8090">  │ │   ├── hosted-git-info@2.4.1 </tspan>
+<tspan x="10" y="8090">  │ │   ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="8106">  │ │   ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="8122">  │ │   │ └── builtin-modules@1.1.1 </tspan>
 <tspan x="10" y="8138">  │ │   └─┬ validate-npm-package-license@3.0.1 </tspan>
@@ -554,7 +554,7 @@
 <tspan x="10" y="8826">  │ │ │ ├── extsprintf@1.0.2 </tspan>
 <tspan x="10" y="8842">  │ │ │ ├── json-schema@0.2.3 </tspan>
 <tspan x="10" y="8858">  │ │ │ └── verror@1.3.6 </tspan>
-<tspan x="10" y="8874">  │ │ └─┬ sshpk@1.11.0 </tspan>
+<tspan x="10" y="8874">  │ │ └─┬ sshpk@1.13.0 </tspan>
 <tspan x="10" y="8890">  │ │   ├── asn1@0.2.3 </tspan>
 <tspan x="10" y="8906">  │ │   ├── assert-plus@1.0.0 </tspan>
 <tspan x="10" y="8922">  │ │   ├── bcrypt-pbkdf@1.0.1 </tspan>
