@@ -1,6 +1,6 @@
 # npmtest-gitbook
 
-#### test coverage for  [gitbook (v3.2.2)](https://www.gitbook.com)  [![npm package](https://img.shields.io/npm/v/npmtest-gitbook.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gitbook) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gitbook.svg)](https://travis-ci.org/npmtest/node-npmtest-gitbook)
+#### basic test coverage for  [gitbook (v3.2.2)](https://www.gitbook.com)  [![npm package](https://img.shields.io/npm/v/npmtest-gitbook.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gitbook) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gitbook.svg)](https://travis-ci.org/npmtest/node-npmtest-gitbook)
 
 #### Library and cmd utility to generate GitBooks
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gitbook/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gitbook/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gitbook/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gitbook/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gitbook/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gitbook/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gitbook/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gitbook/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gitbook/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gitbook/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gitbook/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gitbook/build/coverage.html/index.html)
 
